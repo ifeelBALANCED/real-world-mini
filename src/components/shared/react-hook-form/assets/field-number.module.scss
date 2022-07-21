@@ -1,0 +1,37 @@
+@import '../../../../themes/themes';
+
+.icon {
+  position: absolute;
+  top: 25px;
+  right: 0;
+}
+
+i {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  cursor: pointer;
+}
+
+i:hover {
+  color: #115e67;
+  cursor: pointer;
+}
+
+.withPostfix {
+}
+
+.postfixLabel {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 20px;
+  text-align: left;
+  color: #141414;
+  position: absolute;
+  top: 50%;
+  right: 18px;
+  transform: translateY(-50%);
+  z-index: 3;
+  pointer-events: none;
+}

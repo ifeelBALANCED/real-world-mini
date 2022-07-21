@@ -1,0 +1,9 @@
+.dateInput {
+  input{
+    &::placeholder {
+      text-align: justify;
+      text-align-last: justify;
+      color: #d0cdca;
+    }
+  }
+}

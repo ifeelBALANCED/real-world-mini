@@ -1,0 +1,36 @@
+.page404 {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  background: #fff;
+  font-family: 'Arvo', serif;
+
+  img {
+    width: 100%;
+  }
+}
+
+.fourZeroFourBg {
+  background-image: url(https://cdn.dribbble.com/users/285475/screenshots/2083086/dribbble_1.gif);
+  background-repeat: no-repeat;
+  height: 400px;
+  background-position: center;
+
+  h1, h3 {
+    font-size: 80px;
+  }
+}
+
+.link404 {
+  color: #fff !important;
+  padding: 10px 20px;
+  background: #39ac31;
+  margin: 20px 0;
+  display: inline-block;
+}
+
+.contantBox404 {
+  margin-top: -50px;
+}

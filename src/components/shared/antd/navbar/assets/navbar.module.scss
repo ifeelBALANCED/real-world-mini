@@ -1,0 +1,96 @@
+@import '../../../../../app/styles/vars';
+@import '../../../../../app/styles/mixins';
+
+.navbar {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 2rem;
+}
+
+@media (min-width: 992px) {
+  .menu {
+    display: none;
+  }
+}
+
+.logo {
+  height: 32px;
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.mainLayout {
+  height: 100%;
+}
+
+.avatar {
+  background-color: $avatar-background;
+  @include flexCentered()
+}
+
+.logoText {
+  color: $white-color;
+}
+
+.headerWrapper {
+  display: flex;
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerContentText {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+  & > span {
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.newArticleButton{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-right:20px;
+  color:  rgba(0, 0, 0, 0.8);
+  text-transform: capitalize;
+
+  svg{
+    margin-right: 5px;
+  }
+
+  &:hover{
+    color:  rgba(0, 0, 0, 0.8);
+  }
+}
+
+.content {
+  padding: 16px;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+}
+
+.layoutHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.siteLayout .siteLayoutBackground {
+  background: $white-color;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.createDogButton {
+  margin-right: 10px;
+}

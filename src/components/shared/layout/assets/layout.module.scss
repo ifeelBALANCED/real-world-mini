@@ -1,0 +1,65 @@
+@import '../../../../app/styles/mixins';
+@import '../../../../app/styles/vars';
+
+.mainLayout {
+  min-height: 100vh;
+}
+
+.avatar {
+  background-color: $avatar-background;
+  @include flexCentered()
+}
+
+.logo {
+  margin: 16px;
+  @include flexCentered()
+}
+
+.logoText {
+  color: $white-color;
+}
+
+.headerWrapper {
+  padding: 0 16px;
+}
+
+.headerContent {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headerContentText {
+  display: flex;
+  align-items: center;
+  & > span {
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 500;
+  }
+}
+
+.content {
+  padding: 16px;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  background: #fff;
+}
+
+.layoutHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.siteLayout .siteLayoutBackground {
+  background: $white-color;
+}
+
+.content {
+  padding: 1rem;
+}
+
+.createDogButton {
+  margin-right: 10px;
+}

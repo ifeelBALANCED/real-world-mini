@@ -1,0 +1,21 @@
+@import '../../../../app/styles/mixins';
+
+.signUpWrapper {
+  height: 100%;
+  flex-direction: column;
+  @include flexCentered();
+}
+
+.signUpForm {
+  min-width: 375px;
+}
+
+.signUpCard {
+  min-height: 320px;
+  flex-direction: column;
+  @include flexCentered();
+}
+
+.signUpFormButton {
+  width: 100%;
+}

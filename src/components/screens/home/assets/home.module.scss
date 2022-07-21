@@ -1,0 +1,22 @@
+.tagList {
+  padding: 5px 10px 10px 10px;
+  background: #f3f3f3;
+  border-radius: 4px;
+}
+
+.popularTags {
+  margin-bottom: 0.2rem;
+}
+
+.tag {
+  cursor: pointer;
+  background-color: #818a91;
+  color: #fff;
+  font-size: 0.8rem;
+  white-space: nowrap;
+  margin-right: 3px;
+  margin-bottom: 0.2rem;
+  display: inline-block;
+  padding: 0.1rem 0.6em;
+  border-radius: 10rem;
+}

@@ -1,0 +1,21 @@
+@import '../../../../app/styles/mixins';
+
+.loginWrapper {
+  height: 100%;
+  flex-direction: column;
+  @include flexCentered();
+}
+
+.loginForm {
+  min-width: 375px;
+}
+
+.loginCard {
+  min-height: 320px;
+  flex-direction: column;
+  @include flexCentered();
+}
+
+.loginFormButton {
+  width: 100%;
+}

@@ -1,0 +1,16 @@
+.button {
+  & > span {
+    margin-right: 3px;
+  }
+}
+
+.tagListItem {
+  font-weight: 300;
+  font-size: 0.8rem;
+  padding: 0 0.6em;
+  margin: 0.2em;
+  border: 1px solid #ddd;
+  color: #aaa;
+  background: none;
+  border-radius: 10rem;
+}

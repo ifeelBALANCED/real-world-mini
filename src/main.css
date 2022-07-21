@@ -1,0 +1,41 @@
+#root {
+  height: 100%;
+}
+
+.ant-layout.ant-layout-has-sider {
+  height: 100%;
+  background: #fff;
+}
+
+.ant-form-item {
+  margin-bottom: 0 !important;
+}
+
+.ant-btn-loading-icon {
+  display: none !important;
+}
+
+.ant-layout-header {
+  background: #fff !important;
+}
+
+div.ant-typography,
+.ant-typography p {
+  margin-bottom: 0 !important;
+}
+
+.ant-drawer-header-title {
+  flex-direction: row-reverse !important;
+}
+
+.ant-drawer-close {
+  margin-right: 0 !important;
+}
+
+.ant-comment-content-detail {
+  margin-top: -8px !important;
+}
+
+.ant-tabs-tab-active {
+  border-bottom: 2px solid #1890ff !important;
+}

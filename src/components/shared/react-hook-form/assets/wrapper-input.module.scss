@@ -1,0 +1,21 @@
+.inputContainer {
+  flex-direction: row;
+  align-items: flex-start;
+  position: relative;
+  min-width: 280px;
+}
+
+.inputIcon {
+  transform: translateY(-50%);
+  position: absolute;
+  top: 50%;
+  right: 5px;
+  padding: 10px;
+  color: #141414;
+  cursor: pointer;
+  transition: color .25s ease-in-out;
+
+  &:hover {
+    color: #141415;
+  }
+}
