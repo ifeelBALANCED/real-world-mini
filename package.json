@@ -5,6 +5,7 @@
     "name": "MRX",
     "url": "https://github.com/mmnkuh"
   },
+  "engines": { "node": "14.20.0"},
   "scripts": {
     "build": "npm run typecheck && vite build",
     "commit": "git-cz",
