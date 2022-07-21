@@ -5,15 +5,19 @@
     "name": "MRX",
     "url": "https://github.com/mmnkuh"
   },
-  "engines": { "node": "14.20.0"},
+  "engines": {
+    "node": "14.20.0",
+    "yarn": "1.22.19"
+  },
   "scripts": {
     "build": "npm run typecheck && vite build",
     "commit": "git-cz",
     "dev": "vite",
+    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn --prefix react-world-mini && yarn run build --prefix react-world-mini",
     "format": "prettier --write \"./**/*.{ts,tsx}\" && git update-index --again ",
     "lint": "eslint \"./src/**/*.{ts,tsx}\" --fix",
     "prepare": "husky install",
-    "serve": "npm run build && vite preview --port 3000",
+    "serve": "yarn run build && vite preview --port 3000",
     "test:e2e": "start-server-and-test serve http://127.0.0.1:3000/ 'cypress open'",
     "test:e2e:ci": "start-server-and-test serve http://127.0.0.1:3000/ 'cypress run'",
     "test:unit": "jest --watch",
