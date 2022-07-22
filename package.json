@@ -13,7 +13,7 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn && yarn run build",
     "lint": "eslint \"./src/**/*.{ts,tsx}\" --fix",
     "prepare": "husky install",
-    "serve": "yarn run build && vite preview --port 3000",
+    "start": "yarn run build && vite preview --port 3000",
     "test:e2e": "start-server-and-test serve http://127.0.0.1:3000/ 'cypress open'",
     "test:e2e:ci": "start-server-and-test serve http://127.0.0.1:3000/ 'cypress run'",
     "test:unit": "jest --watch",
