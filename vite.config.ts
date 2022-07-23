@@ -41,6 +41,6 @@ export default defineConfig({
         rewrite: path => path.replace(/^\/api/, ""),
       },
     },
-    port: parseInt(String(process.env.PORT), 10) || 3000,
+    port: parseInt(String(process.env.PORT), 10) || 3002,
   },
 });
